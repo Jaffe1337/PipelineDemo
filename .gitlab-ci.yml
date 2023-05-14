@@ -1,8 +1,0 @@
-test job:
-  image: python:3.10
-  script:
-    - python --version
-    - pip --version
-    - pip install pytest
-    - pytest --version
-    - echo "Doing stuff"
